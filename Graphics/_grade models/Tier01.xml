@@ -3,30 +3,26 @@
  
 <!--top left-->
 		<Actor
-			File="star.png"
-			OnCommand="x,-46;y,-46;zoom,0.5;pulse;EffectMagnitude,1,0.9,0;sleep,60;queuecommand,Spin"
-			SpinCommand="%function(self) speed = GAMESTATE:GetEnv('SpinSpeed'); if not speed then speed = 0 end; GAMESTATE:SetEnv('SpinSpeed',speed + 1) Spin(self) end"
+			File="roach.gif"
+			OnCommand="x,-46;y,-46;zoom,0.5"
 		/>
  
 <!--top right-->                       
 		<Actor
-			File="star.png"
-			OnCommand="x,46;y,-46;zoom,0.5;effectoffset,0.2;pulse;EffectMagnitude,0.9,1,0;sleep,3;queuecommand,Spin"
-			SpinCommand="%function(self) Spin(self) end"
+			File="roach.gif"
+			OnCommand="x,46;y,-46;zoom,0.5"
 		/>
                
 <!--bottom left-->             
 		<Actor
-			File="star.png"
-			OnCommand="x,-46;y,46;zoom,0.5;effectoffset,0.4;pulse;EffectMagnitude,0.9,1,0;sleep,11;queuecommand,Spin"
-			SpinCommand="%function(self) Spin(self) end"
+			File="roach.gif"
+			OnCommand="x,-46;y,46;zoom,0.5"
 		/>
                
 <!--bottom right-->            
 		<Actor
-			File="star.png"
-			OnCommand="x,46;y,46;zoom,0.5;effectoffset,0.6;pulse;EffectMagnitude,1,0.9,0;sleep,48;queuecommand,Spin"
-			SpinCommand="%function(self) Spin(self) end"
+			File="roach.gif"
+			OnCommand="x,46;y,46;zoom,0.5"
 		/>             
                
                

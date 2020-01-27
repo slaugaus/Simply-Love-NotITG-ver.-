@@ -1,7 +1,6 @@
 -- config.lua:
 -- Read contents by doing stitch("config").YourPref
 
--- THIS IS A FALLBACK FILE, EDIT Data\config.lua INSTEAD
 -- For console, instructions further down
 layout = "QwertyUS"
 console = "9"
