@@ -1,16 +1,18 @@
 <ActorFrame> <children>
 	<ActorFrame Command="queuecommand,Icon" IconCommand="%function() StyleIcon() end" />
 	<ActorFrame Command="%function() if GAMESTATE:GetCoinMode() == 1 and not GetPref('EventMode') then rateMods = rateModsPay else rateMods = rateModsFree end end" />
-	<Layer 
-		File="@'Banner'..Color()..'.png'"
-		OnCommand="x,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640-3);y,SCREEN_CENTER_Y-138;ZoomToWidth,306;ZoomToHeight,119"
+    <!-- fallback banner -->
+	<Layer Type="Quad"
+		OnCommand="diffuse,#1E282F77;x,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640-3);y,SCREEN_CENTER_Y-138;ZoomToWidth,306;ZoomToHeight,119"
 		OffCommand=""
 	/>
+    <!-- artist/bpm/length bg -->
 	<Layer Type="Quad"
-			OnCommand="diffuse,#1E282F;stretchto,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640+150),172,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640-156),220"
+			OnCommand="diffuse,#1E282F77;stretchto,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640+150),172,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640-156),220"
 	/>	
+    <!-- difficulty bg -->
 	<Layer Type="Quad"
-			OnCommand="diffuse,#1E282F;stretchto,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640+150),245,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640-156),363"
+			OnCommand="diffuse,#1E282F77;stretchto,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640+150),245,SCREEN_CENTER_X-(SCREEN_WIDTH*160/640-156),363"
 	/>	
 	
 	<Layer 

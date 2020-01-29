@@ -22,12 +22,17 @@ DIE
 
 ## sound
 - mines are conk1.ogg
-- coin sound is "LOADSA MONEY"
 - ScreenEnding music is FF7 victory theme (square will sue)
+
+## misc visual
+- `_shared background normal` and `crazy` are now the starry background from that one part of YATM
+- ScreenSelectMusic now loads it as the background
+- most elements in ScreenSelectMusic are now semi-transparent
+- heart effect on title screen "removed" because it clashes with the new background
+- fallback background is now itg.png
 
 ## other
 - them.png replaced with feldfeldrevolution.gif
-- attract mode logo replaced with "mods"
 - re-enabled vocalize
 - way too many random window titles
 - random player death SCREENMAN:SystemMessages are possible, but not used

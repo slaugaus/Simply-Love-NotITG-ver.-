@@ -208,7 +208,8 @@ WindowTitles = {
     "yeha babeyyyyy",
     "standoff in the drive-thru",
     "Do you ever just?",
-    "CAR????"
+    "CAR????",
+    "gameing google......."
 }
 
 -- original window title string: @string.format("%s %s  -  %s",FUCK_EXE and"NotITG"or"OpenITG",string.gsub(string.gfind(GetSerialNumber(),"%d+%-%x+")(),"%x+$",function(s)return string.format("%03d",tonumber(s,16))end),THEME:GetCurThemeName())
