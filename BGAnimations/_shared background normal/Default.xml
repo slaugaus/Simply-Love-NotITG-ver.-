@@ -1,22 +1,27 @@
 <!-- code stolen from that one segment in YATM (please don't kill me) -->
 <!-- experiment ingame by running code on "menu_bg" -->
 
-<Layer Type="ActorFrame" OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;" FarDist="100000" Var="mis_floor"  ><children>
-	<Layer Type="ActorFrame" OnCommand="rotationx,-60;fov,60;" FarDist="100000" Var="menu_bg" ><children>
-		
-		<Layer File="space" OnCommand="diffuse,.8,.8,.8,1;rotationx,90;customtexturerect,0,0,6,4;zoom,4;zoomx,6;zoomz,4;y,-1024;z,1024;texcoordvelocity,0,.1;" />
-		
-		<Layer File="grayspc" OnCommand="diffuse,.6,.6,.6,1;customtexturerect,0,0,6,4;zoomx,6;zoomy,-4;zoomz,4;texcoordvelocity,0,.1;fadetop,.05;fadebottom,.05;" />
-		
-		<Layer File="space" OnCommand="blend,add;diffusealpha,.7;rotationx,90;customtexturerect,.5,0,4.5,4;basezoomx,-1;zoom,4;zoomx,6;zoomz,4;y,-1024;z,1024;texcoordvelocity,0,.25;" />
-		
-		<Layer File="space" OnCommand="blend,add;diffusealpha,.7;customtexturerect,.5,0,4.5,4;basezoomx,-1;zoomx,6;zoomy,-4;zoomz,4;texcoordvelocity,0,.25;" />
-		
-		<Layer File="threadfloor" OnCommand="diffusealpha,.2;zoom,4;zoomy,-4;zoomz,4;fadetop,.05;fadebottom,.05;" />
-		
-		<Layer File="lightbeam" OnCommand="y,-1024;rotationx,90;zoomx,20;zoomz,.5;blend,add;diffuseshift;effectcolor1,1,1,1,.8;effectcolor2,1,1,1,.6;effectperiod,2;" />
-		
-		<Layer File="ligma" OnCOmmand="blend,add;zoom,4;zoomz,2;rotationx,90;y,-1024;diffuseshift;effectcolor1,1,1,1,1;effectcolor2,1,1,1,.8;effectperiod,3;" />
-		
-	</children></Layer>
-</children></Layer>
+<ActorFrame OnCommand="x,SCREEN_CENTER_X;y,SCREEN_CENTER_Y;" FarDist="100000" ><children>
+	<ActorFrame OnCommand="rotationx,-60;fov,60;" FarDist="100000" Var="menu_bg" ><children>		
+		<Layer File="textures/space" OnCommand="diffuse,.8,.8,.8,1;rotationx,90;customtexturerect,0,0,6,4;zoom,4;zoomx,6;zoomz,4;y,-1024;z,1024;texcoordvelocity,0,.1;" />		
+		<Layer File="textures/grayspc" OnCommand="diffuse,.6,.6,.6,1;customtexturerect,0,0,6,4;zoomx,6;zoomy,-4;zoomz,4;texcoordvelocity,0,.1;fadetop,.05;fadebottom,.05;" />		
+		<Layer File="textures/space" OnCommand="blend,add;diffusealpha,.7;rotationx,90;customtexturerect,.5,0,4.5,4;basezoomx,-1;zoom,4;zoomx,6;zoomz,4;y,-1024;z,1024;texcoordvelocity,0,.25;" />		
+		<Layer File="textures/space" OnCommand="blend,add;diffusealpha,.7;customtexturerect,.5,0,4.5,4;basezoomx,-1;zoomx,6;zoomy,-4;zoomz,4;texcoordvelocity,0,.25;" />		
+		<Layer File="textures/threadfloor" OnCommand="diffusealpha,.2;zoom,4;zoomy,-4;zoomz,4;fadetop,.05;fadebottom,.05;" />		
+		<Layer File="textures/lightbeam" OnCommand="y,-1024;rotationx,90;zoomx,20;zoomz,.5;blend,add;diffuseshift;effectcolor1,1,1,1,.8;effectcolor2,1,1,1,.6;effectperiod,2;" />		
+		<Layer File="textures/ligma" OnCOmmand="blend,add;zoom,4;zoomz,2;rotationx,90;y,-1024;diffuseshift;effectcolor1,1,1,1,1;effectcolor2,1,1,1,.8;effectperiod,3;" />		
+	</children></ActorFrame>
+</children></ActorFrame>
+
+<!-- Alternate bg: Test shaders on itg.png -->
+<!--
+<ActorFrame OnCommand="%function(self) scx = SCREEN_CENTER_X scy = SCREEN_CENTER_Y sw=scx*2 sh=scy*2 end"> <children>
+    <Layer
+        File="itg"
+        Shader="posterize.frag"
+        OnCommand="%function(self)
+            self:xy(scx,scy)
+        end"
+    />
+</children> </ActorFrame>
+-->

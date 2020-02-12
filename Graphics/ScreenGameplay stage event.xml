@@ -15,7 +15,7 @@
 				-- self:y(-20);
 			end"
         OnCommand=""
-		ShowCommand="y,-80"
+		ShowCommand="y,-80;sleep,1;decelerate,1;diffusealpha,0"
 		FadeInCommand="diffusealpha,0;accelerate,0.3;diffusealpha,1"
     />
 	<BitmapText

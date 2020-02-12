@@ -4,8 +4,8 @@
 vocalizeList = { 'Alan' , 'Brandon' , 'Charles' , 'David' , 'Garrett' , 'Jayce' , 'Jim' , 'Joy' , 'Madame_Moisture' , 'Marissa' , 'Mark' , 'Matt' , 'Nick' , 'Phil' , 'Ryan' , 'Sara' , 'Shizuka' , 'Steven' , 'Tyler' , 'Vospi' }
 vocalizeListNoRandom = { 'Alessandro_italian' , 'Joy_swedish' , 'Panzer' , 'Shizuka_japanese' , 'Sirin_turkish' }
 
---vocalize = { 'Random' , 'Random' } -- defaults
-vocalize = { 'None' , 'None' } -- defaults
+vocalize = { 'Random' , 'Random' } -- defaults
+--vocalize = { 'None' , 'None' } -- defaults
 
 function VocalizeOption()
 	local modList = { 'None' }

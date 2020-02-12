@@ -17,6 +17,7 @@ wraps = {
 -- 1: off
 -- 2: YOU DIED
 -- 3: Wasted
+-- 4: We'll Be Right Back
 -- Scroll through them with Action5
 FailOverlay = 2
 

@@ -1,0 +1,4 @@
+<ActorFrame Name="WBRB"><children>
+    <Layer Name="AftSprite" Type="Sprite" Texture="white" Frag="posterize.frag" />
+    <Layer Name="BRBImage" File="wbrb" />
+</children></ActorFrame>

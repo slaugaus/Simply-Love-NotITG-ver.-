@@ -1,17 +1,17 @@
 <ActorFrame> <children>
 	<Layer Type="ActorFrame" OnCommand="x,65;y,-97"> <children>
-		<Layer Type="BitmapText" Font="_misoreg white" Text="FANFASTIT!"	OnCommand="y,27*0;zoom,0.35;horizalign,right;ShadowLength,0;rainbow;effectperiod,5" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="EXCLECENT"	OnCommand="y,27*1;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#FFCC00" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="GREGA"		OnCommand="y,27*2;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#00FF00" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="DEDCEN"	OnCommand="y,27*3;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#A800FF" InitCommand="%function(self) if not Decents() then self:diffuse(.5,.5,.5,.5) end end" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="WOY FAF"	OnCommand="y,27*4;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#FF6000" InitCommand="%function(self) if not WayOffs() then self:diffuse(.5,.5,.5,.5) end end" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="SIMS"		OnCommand="y,27*5;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#FF0000;vibrate" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="FANFASTIT!" OnCommand="y,27*0;zoom,0.35;horizalign,right;ShadowLength,0;rainbow;effectperiod,5" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="EXCLECENT"	 OnCommand="y,27*1;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#FFCC00" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="GREGA"		 OnCommand="y,27*2;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#00FF00" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="DEDCEN"	 OnCommand="y,27*3;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#A800FF" InitCommand="%function(self) if not Decents() then self:diffuse(.5,.5,.5,.5) end end" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="WOY FAF"	 OnCommand="y,27*4;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#FF6000" InitCommand="%function(self) if not WayOffs() then self:diffuse(.5,.5,.5,.5) end end" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="SIMS"		 OnCommand="y,27*5;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#FF0000;vibrate" />
 	</children> </Layer>
 	<Layer Type="ActorFrame" OnCommand="x,-110;y,-97"> <children>
-		<Layer Type="BitmapText" Font="_misoreg white" Text="HOLDS"		OnCommand="y,27*2;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="MINES"		OnCommand="y,27*3;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="BRACKETS"		OnCommand="y,27*4;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
-		<Layer Type="BitmapText" Font="_misoreg white" Text="ROLLS"		OnCommand="y,27*5;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="HOLDS"		 OnCommand="y,27*2;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="MINES"		 OnCommand="y,27*3;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="BRACKETS"	 OnCommand="y,27*4;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
+		<Layer Type="BitmapText" Font="_misoreg white" Text="ROLLS"		 OnCommand="y,27*5;zoom,0.35;horizalign,right;ShadowLength,0;diffuse,#696969" />
 	</children> </Layer>
 </children> </ActorFrame>
 
