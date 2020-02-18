@@ -1,3 +1,20 @@
 <ActorFrame> <children>
+    <!-- YOSEFU's "display song info in course mode for cheating at Literally Random" -->
+    <Layer Type="BitmapText" File="Common Normal" Condition="GAMESTATE:IsCourseMode()"
+        OnCommand="shadowlength,0;xy,SCREEN_CENTER_X,SCREEN_BOTTOM-72;zoom,0.5;maxwidth,640" Text=""
+        InitCommand="queuecommand,Update"
+        UpdateCommand="%function( self )
+
+            local group  = string.sub( GAMESTATE:GetCurrentSong():GetSongDir(), 8, string.find( GAMESTATE:GetCurrentSong():GetSongDir(), '/', 8 ) - 1 );
+            local title  = GAMESTATE:GetCurrentSong():GetDisplayFullTitle();
+            local artist = GAMESTATE:GetCurrentSong():GetDisplayArtist();
+
+            self:settext( group..'\n'..title..' by '..artist );
+
+            self:sleep( 1 / 60 );
+            self:queuecommand( 'Update' );
+
+        end"
+    />
 </children> </ActorFrame>
 
