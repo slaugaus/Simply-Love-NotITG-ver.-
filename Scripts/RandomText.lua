@@ -6,6 +6,7 @@ WindowTitles = {
     "blasterix riotz",
     "astix and iotz",
     "Blastix Riot Police",
+	"blasdigs riods :DDD",
     -- jackbox shirts
 	"BAZGINA",
 	"I LOVE VIDEO GAMES",
@@ -29,6 +30,8 @@ WindowTitles = {
     "Why do you keep missing those round notes?",
     "This has just devolved into looking at colors on a certain part of the screen, hasn\’t it.",
     "Your cheating you already have 573 combo before starting the song",
+	"i bet you memorized the notes",
+	"wherea are the arrows. how am I supposed to step to this",
     -- *recontrols your galaxy*
     "dyscontolled galaxt",
     "gyscontrolled dalaxy",
@@ -39,6 +42,7 @@ WindowTitles = {
     -- how come there isn't a
     "if egoism 440 is so good then how come there isn\'t an egoism 441",
     "if round 1 is so good then how come there isn\'t a round 2",
+	"if taro4012 is so good then how come there isn't a taro4013",
     -- reaction time funny
     "arrow funny time",
     "sudden arrow comedy",
@@ -170,7 +174,11 @@ WindowTitles = {
     "CAR????",
     "gameing google.......",
     "NOW LET ME SEE YOU-",
-    "Eat your crossovers or you don't get dessert"
+    "Eat your crossovers or you don't get dessert",
+	"HOW TO SOUND LIKE CAMELLIA (Camellia Remix)",
+	"Play along at home: djfkdjkfdjfkdjkfdjfkdkfjdkfdjkfjdkfdjkjfdjkfkkkfkfkfdjjfdjkfdjkfdjkffdjkfjdkjkfdjkfdjkfdjkfdjkfkdjjfkdjkfdjkjkfjdkfjdkfjkdjkfdjkjfdkjfjdfkdjkfjdkfjdfkdjkfjjdjfddffjffdjkkkkkkkkkkkkkkkkkkkdjkfjkdfjkfdkjfkdjkfkfdjjfdfkfjdkkjkfjjkfjkfd",
+	"Play along at home: ←↑↓→←↑→↓←↑↓→←↑→↓←↑↓→←→↓↑←→↓←↑→↓↑←→↓←↑→↑↓←↑→↓→→→↓→↓→↓←↑↑↓←↑→↓←↑→↓←↑→↓↓←↑→↓↑←→↑→↓←↑→↓←↑→↓←↑→↓←↑→↓→←↑↑↓→←↑→↓←↑→↑→↓↑←→↓↑←→↓↑→←↑→↓←↑→↑↓←→↑↓↑←↓→←↑→↓↑←→↓↑←↓→←↑→↓↑↑←↑↓←←↓↓↑↓↓←↑→→→→→→→→→→→→→→→→→→→←↑→↓↑→←↓↑→↓←→↑↓→←↑→↓→↓←↑↑↓←↓→↓↑←→→↑→↓↑↑→↓↑→↓←",
+	"bvvt"
 }
 
 -- original window title string: @string.format("%s %s  -  %s",FUCK_EXE and"NotITG"or"OpenITG",string.gsub(string.gfind(GetSerialNumber(),"%d+%-%x+")(),"%x+$",function(s)return string.format("%03d",tonumber(s,16))end),THEME:GetCurThemeName())

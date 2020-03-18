@@ -16,5 +16,7 @@
 
         end"
     />
+    <!-- Load Samario's overlay stuff (get it from #theme-share yourself) -->
+    <Layer File="~samario"/>
 </children> </ActorFrame>
 
