@@ -7,12 +7,13 @@ WindowTitles = {
     "astix and iotz",
     "Blastix Riot Police",
 	"blasdigs riods :DDD",
-    -- jackbox shirts
+    -- jackbox jokes
 	"BAZGINA",
 	"I LOVE VIDEO GAMES",
     "I VIDEO LOVE GAMES",
     "VIDEO LOVE I GAMES",
     "THIS IS FUNNY. PLEASE LAUGH",
+	"ehehe wenis :---)",
     -- osu! original
 	"It's like osu! but on a shirt",
 	"It's like osu! but with arrows",
@@ -210,7 +211,8 @@ DeathMessages = {
     "## didn't rebember",
     "\"OUCH! that arrow hit ## in the face, haha, funny one\" -fortnite funny",
     "That file beat ## up and took their lunch money",
-    "has ## tried moving or breathing"
+    "has ## tried moving or breathing",
+	"TRACK CRASH"
 }
 
 function GetRandomDeathMsg(p)
