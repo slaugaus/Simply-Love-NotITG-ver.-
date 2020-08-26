@@ -179,7 +179,10 @@ WindowTitles = {
 	"HOW TO SOUND LIKE CAMELLIA (Camellia Remix)",
 	"Play along at home: djfkdjkfdjfkdjkfdjfkdkfjdkfdjkfjdkfdjkjfdjkfkkkfkfkfdjjfdjkfdjkfdjkffdjkfjdkjkfdjkfdjkfdjkfdjkfkdjjfkdjkfdjkjkfjdkfjdkfjkdjkfdjkjfdkjfjdfkdjkfjdkfjdfkdjkfjjdjfddffjffdjkkkkkkkkkkkkkkkkkkkdjkfjkdfjkfdkjfkdjkfkfdjjfdfkfjdkkjkfjjkfjkfd",
 	"Play along at home: ←↑↓→←↑→↓←↑↓→←↑→↓←↑↓→←→↓↑←→↓←↑→↓↑←→↓←↑→↑↓←↑→↓→→→↓→↓→↓←↑↑↓←↑→↓←↑→↓←↑→↓↓←↑→↓↑←→↑→↓←↑→↓←↑→↓←↑→↓←↑→↓→←↑↑↓→←↑→↓←↑→↑→↓↑←→↓↑←→↓↑→←↑→↓←↑→↑↓←→↑↓↑←↓→←↑→↓↑←→↓↑←↓→←↑→↓↑↑←↑↓←←↓↓↑↓↓←↑→→→→→→→→→→→→→→→→→→→←↑→↓↑→←↓↑→↓←→↑↓→←↑→↓→↓←↑↑↓←↓→↓↑←→→↑→↓↑↑→↓↑→↓←",
-	"bvvt"
+	"bvvt",
+	"conflict歌います。ズォールヒ～～↑ｗｗｗｗヴィヤーンタースｗｗｗｗｗワース フェスツｗｗｗｗｗｗｗルオルｗｗｗｗｗプローイユクｗｗｗｗｗｗｗダルフェ スォーイヴォーｗｗｗｗｗスウェン ネｗｗｗｗヤットゥ ヴ ヒェンヴガｒジョｊゴアｊガオガオッガｗｗｗじゃｇｊｊ",
+	"Hey! Why don't you just get up and dance man?",
+	"=PAiN= (Ouch!)"
 }
 
 -- original window title string: @string.format("%s %s  -  %s",FUCK_EXE and"NotITG"or"OpenITG",string.gsub(string.gfind(GetSerialNumber(),"%d+%-%x+")(),"%x+$",function(s)return string.format("%03d",tonumber(s,16))end),THEME:GetCurThemeName())
@@ -212,7 +215,8 @@ DeathMessages = {
     "\"OUCH! that arrow hit ## in the face, haha, funny one\" -fortnite funny",
     "That file beat ## up and took their lunch money",
     "has ## tried moving or breathing",
-	"TRACK CRASH"
+	"TRACK CRASH",
+	"Hey! Why don't you just get up and dance ##?"
 }
 
 function GetRandomDeathMsg(p)
