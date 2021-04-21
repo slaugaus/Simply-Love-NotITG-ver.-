@@ -122,7 +122,11 @@
 		/>
 	</children> </Layer>
 	
-	<Layer File="OffsetPlot" />
+	<!--Layer File="OffsetPlot" /-->
 	<!--Layer File="Couples" /-->
+    <!-- new widgets from Taro in #theme-share -->
+    <Layer File="ScreenEvaluation widget offsetPlot" />
+    <Layer File="ScreenEvaluation widget pb" />
+    <Layer File="ScreenEvaluation widget uksrtScore" />
 	
 </children> </ActorFrame>

@@ -25,7 +25,7 @@ function wbrb:Dead()
     stitch("lua.aftoverlay"):On()
     GAMESTATE:ApplyGameCommand('sound,wbrb')
 
-    self("AftSprite"):cmd("hidden,0;diffusealpha,1;sleep,4;linear,1;diffusealpha,0;queuecommand,HideAft")
+    self("AftSprite"):cmd("hidden,0;diffusealpha,1;sleep,2;linear,1;diffusealpha,0;queuecommand,HideAft")
     self("BRBImage"):cmd("diffusealpha,1;sleep,2;linear,1;diffusealpha,0;")
 end
 
