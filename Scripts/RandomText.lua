@@ -76,7 +76,7 @@ WindowTitles = {
     "Also try Tone Sphere!",
     "Also try Arcaea!",
     "Also try Phigros!",
-    "Also try... brackets?",
+    "Also try... bracket?",
     -- special
     "\"CHAOS\" SPECIAL",
     "\"AIR\" SPECIAL",
@@ -134,7 +134,7 @@ WindowTitles = {
     "oh yeah woo modding",
     "\"nut conflict 440\" -nhan",
     "oops all dpads",
-    "lol wwwwww mdr",
+    "lol, wwwwww, mdr",
     "\"Oppa Morning Style !\" -exschwasion",
     "\"Imitation Crabmeat Finland\"",
     "\"use a car as the bar\"",
@@ -182,7 +182,10 @@ WindowTitles = {
 	"bvvt",
 	"conflict歌います。ズォールヒ～～↑ｗｗｗｗヴィヤーンタースｗｗｗｗｗワース フェスツｗｗｗｗｗｗｗルオルｗｗｗｗｗプローイユクｗｗｗｗｗｗｗダルフェ スォーイヴォーｗｗｗｗｗスウェン ネｗｗｗｗヤットゥ ヴ ヒェンヴガｒジョｊゴアｊガオガオッガｗｗｗじゃｇｊｊ",
 	"Hey! Why don't you just get up and dance man?",
-	"=PAiN= (Ouch!)"
+    "=PAiN= (Ouch!)",
+    "Copied from",
+	"Oil floats on water 1) wait for it to rain 2) cover yourself in oil 3) fly",
+	"Water sinks in oil 1) wait for it to oil 2) cover yourself in water 3) fall"
 }
 
 -- original window title string: @string.format("%s %s  -  %s",FUCK_EXE and"NotITG"or"OpenITG",string.gsub(string.gfind(GetSerialNumber(),"%d+%-%x+")(),"%x+$",function(s)return string.format("%03d",tonumber(s,16))end),THEME:GetCurThemeName())

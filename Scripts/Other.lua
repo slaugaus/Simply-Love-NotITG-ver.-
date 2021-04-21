@@ -2,6 +2,11 @@
 function Platform() return "arcade" end
 function IsHomeMode() return false end
 
+-- GAMESTATE:ApplyModifiers(), ApplyGameCommand(), and LaunchAttack() shortcuts (for applying mods from the console)
+function gam(mods, plr) GAMESTATE:ApplyModifiers(mods, plr) end
+function gagc(cmd, plr) GAMESTATE:ApplyGameCommand(cmd, plr) end
+function gla(start, length, mods, plr) GAMESTATE:LaunchAttack(start, length, mods, plr) end
+
 command = {}
 for i = 1,42 do command[i] = '' end
 
