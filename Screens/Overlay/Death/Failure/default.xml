@@ -1,0 +1,5 @@
+	<ActorFrame Name="Failure"><children>
+		<Layer Type="Quad" />
+		<Layer File="failure" />
+		<Layer Type="Quad" />
+	</children></ActorFrame>

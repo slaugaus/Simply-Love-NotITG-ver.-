@@ -2,4 +2,6 @@
 	<Layer File="YouDied" />
 	<Layer File="Wasted" />
     <Layer File="WBRB" />
+    <!-- thanks oatmealine -->
+    <Layer File="Failure" />
 </children></ActorFrame>

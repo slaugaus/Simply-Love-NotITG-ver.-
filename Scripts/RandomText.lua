@@ -33,6 +33,7 @@ WindowTitles = {
     "Your cheating you already have 573 combo before starting the song",
 	"i bet you memorized the notes",
 	"wherea are the arrows. how am I supposed to step to this",
+    "\"OUCH! that arrow hit me in the face, haha, funny one\" -fortnite funny",
     -- *recontrols your galaxy*
     "dyscontolled galaxt",
     "gyscontrolled dalaxy",
@@ -43,7 +44,7 @@ WindowTitles = {
     -- how come there isn't a
     "if egoism 440 is so good then how come there isn\'t an egoism 441",
     "if round 1 is so good then how come there isn\'t a round 2",
-	"if taro4012 is so good then how come there isn't a taro4013",
+	"if taro4012 is so good then how come there isn\'t a taro4013",
     -- reaction time funny
     "arrow funny time",
     "sudden arrow comedy",
@@ -162,6 +163,7 @@ WindowTitles = {
     "slaugaus\' \"title funny\" edition -",
     "artistically",
     "Yeah but can you pass D with a Q",
+	"I passd with a q though.",
     "(scx + 120*(pn*2-7))",
     "Strange shape, wonderful sound",
     "UKSRTale never",
@@ -180,12 +182,17 @@ WindowTitles = {
 	"Play along at home: djfkdjkfdjfkdjkfdjfkdkfjdkfdjkfjdkfdjkjfdjkfkkkfkfkfdjjfdjkfdjkfdjkffdjkfjdkjkfdjkfdjkfdjkfdjkfkdjjfkdjkfdjkjkfjdkfjdkfjkdjkfdjkjfdkjfjdfkdjkfjdkfjdfkdjkfjjdjfddffjffdjkkkkkkkkkkkkkkkkkkkdjkfjkdfjkfdkjfkdjkfkfdjjfdfkfjdkkjkfjjkfjkfd",
 	"Play along at home: ←↑↓→←↑→↓←↑↓→←↑→↓←↑↓→←→↓↑←→↓←↑→↓↑←→↓←↑→↑↓←↑→↓→→→↓→↓→↓←↑↑↓←↑→↓←↑→↓←↑→↓↓←↑→↓↑←→↑→↓←↑→↓←↑→↓←↑→↓←↑→↓→←↑↑↓→←↑→↓←↑→↑→↓↑←→↓↑←→↓↑→←↑→↓←↑→↑↓←→↑↓↑←↓→←↑→↓↑←→↓↑←↓→←↑→↓↑↑←↑↓←←↓↓↑↓↓←↑→→→→→→→→→→→→→→→→→→→←↑→↓↑→←↓↑→↓←→↑↓→←↑→↓→↓←↑↑↓←↓→↓↑←→→↑→↓↑↑→↓↑→↓←",
 	"bvvt",
+	"OK it's BVVTish Gambino homegirl BVVT it like the NASDAQ, BVVT white girls like this BVVT up my BVVTcrack",
 	"conflict歌います。ズォールヒ～～↑ｗｗｗｗヴィヤーンタースｗｗｗｗｗワース フェスツｗｗｗｗｗｗｗルオルｗｗｗｗｗプローイユクｗｗｗｗｗｗｗダルフェ スォーイヴォーｗｗｗｗｗスウェン ネｗｗｗｗヤットゥ ヴ ヒェンヴガｒジョｊゴアｊガオガオッガｗｗｗじゃｇｊｊ",
 	"Hey! Why don't you just get up and dance man?",
     "=PAiN= (Ouch!)",
     "Copied from",
 	"Oil floats on water 1) wait for it to rain 2) cover yourself in oil 3) fly",
-	"Water sinks in oil 1) wait for it to oil 2) cover yourself in water 3) fall"
+	"Water sinks in oil 1) wait for it to oil 2) cover yourself in water 3) fall",
+	"Israel \"Literally Works In A Pasta Factory\" Liven",
+    "this section is not done yet but it will be tight as hell, trust me",
+    "BEST BY 07 SEP 18 043 / 40",
+    "If you can..."
 }
 
 -- original window title string: @string.format("%s %s  -  %s",FUCK_EXE and"NotITG"or"OpenITG",string.gsub(string.gfind(GetSerialNumber(),"%d+%-%x+")(),"%x+$",function(s)return string.format("%03d",tonumber(s,16))end),THEME:GetCurThemeName())
